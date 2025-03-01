@@ -8,9 +8,13 @@ namespace eTickets.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "تصویر بازیگر")]
         public string ProfilePictureURL { get; set; }
+
+        [Display(Name = "نام و نام خانوادگی")]
         public string FullName { get; set; }
 
+        [Display(Name = "درباره بازیگر")]
         public string Bio { get; set; }
 
         // Relationships.
